@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutShortLabel="@string/shortcut_open_kivia"
+              android:shortcutId="openNotaio">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="notaio://open" />
+        <capability-binding android:capability="actions.intent.OPEN_APP">
+            <parameter-binding android:key="appName" android:value="Notaio"/>
+        </capability-binding>
+    </shortcut>
+    <shortcut android:shortcutShortLabel="@string/shortcut_open_dossier"
+              android:shortcutId="openDossier">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="notaio://open/dossiers" />
+        <capability-binding android:capability="actions.intent.OPEN_APP_FEATURE">
+            <parameter-binding android:key="appName" android:value="Notaio"/>
+        </capability-binding>
+    </shortcut>
+</shortcuts>

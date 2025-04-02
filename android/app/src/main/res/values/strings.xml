@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notaio</string>
+    <string name="shortcut_open_kivia">Apri Notaio</string>
+    <string name="shortcut_open_dossier">Apri Dossier</string>
+</resources> 

@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/andreadepietro/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/andreadepietro/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/andreadepietro/FlutterProjects/siri_google_assistent/android/app/.cxx/RelWithDebInfo/34u3m4b7/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/andreadepietro/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/andreadepietro/FlutterProjects/siri_google_assistent/android/app/.cxx/RelWithDebInfo/34u3m4b7/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

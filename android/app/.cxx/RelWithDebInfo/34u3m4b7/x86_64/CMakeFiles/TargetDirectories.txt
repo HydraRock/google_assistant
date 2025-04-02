@@ -1,0 +1,2 @@
+/Users/andreadepietro/FlutterProjects/siri_google_assistent/android/app/.cxx/RelWithDebInfo/34u3m4b7/x86_64/CMakeFiles/edit_cache.dir
+/Users/andreadepietro/FlutterProjects/siri_google_assistent/android/app/.cxx/RelWithDebInfo/34u3m4b7/x86_64/CMakeFiles/rebuild_cache.dir

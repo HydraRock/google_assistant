@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+  <!-- Per "Apri Notaio" -->
+  <action intentName="actions.intent.OPEN_APP">
+    <fulfillment urlTemplate="notaio://open"/>
+    <parameter name="appName" type="string">
+      <prompt>Notaio</prompt>
+    </parameter>
+  </action>
+
+  <!-- Per "Apri il dossier [nome]" -->
+  <action intentName="actions.intent.OPEN_APP_FEATURE">
+    <fulfillment urlTemplate="notaio://open/dossiers?name={dossierName}">
+      <parameter-mapping
+        intentParameter="dossierName"
+        urlParameter="dossierName"/>
+    </fulfillment>
+    <parameter name="appName" type="string">
+      <prompt>Notaio</prompt>
+    </parameter>
+  </action>
+</actions>
