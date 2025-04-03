@@ -41,9 +41,9 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAMjSRprdy2hnuc_Ce8cspRBPHgL7dsjek',
-    appId: '1:569063379537:web:96d74dc4f8fdf0305a1e70',
-    messagingSenderId: '569063379537',
+    //   apiKey: '',
+ //   appId: '',
+    messagingSenderId: '',
     projectId: 'assistentflutter',
     authDomain: 'assistentflutter.firebaseapp.com',
     storageBucket: 'assistentflutter.firebasestorage.app',
@@ -51,35 +51,35 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCu-SW0dk9FOkuN5kTuGZDuOSz9SOtoByY',
-    appId: '1:569063379537:android:cdfa867d7414ca9a5a1e70',
-    messagingSenderId: '569063379537',
+ //   apiKey: '',
+ //   appId: '',
+    messagingSenderId: '',
     projectId: 'assistentflutter',
     storageBucket: 'assistentflutter.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDnjFEsYcgx3DAm0CYNWM9KVYJwvjVjgZo',
-    appId: '1:569063379537:ios:dcdf6e7b07a33f6d5a1e70',
-    messagingSenderId: '569063379537',
+    //   apiKey: '',
+ //   appId: '',
+    messagingSenderId: '',
     projectId: 'assistentflutter',
     storageBucket: 'assistentflutter.firebasestorage.app',
     iosBundleId: 'com.example.siriGoogleAssistent',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDnjFEsYcgx3DAm0CYNWM9KVYJwvjVjgZo',
-    appId: '1:569063379537:ios:dcdf6e7b07a33f6d5a1e70',
-    messagingSenderId: '569063379537',
+   //   apiKey: '',
+ //   appId: '',
+    messagingSenderId: '',
     projectId: 'assistentflutter',
     storageBucket: 'assistentflutter.firebasestorage.app',
     iosBundleId: 'com.example.siriGoogleAssistent',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyAMjSRprdy2hnuc_Ce8cspRBPHgL7dsjek',
-    appId: '1:569063379537:web:8f5d85990ccca5e05a1e70',
-    messagingSenderId: '569063379537',
+    //   apiKey: '',
+ //   appId: '',
+    messagingSenderId: '',
     projectId: 'assistentflutter',
     authDomain: 'assistentflutter.firebaseapp.com',
     storageBucket: 'assistentflutter.firebasestorage.app',
